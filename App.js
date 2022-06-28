@@ -1,17 +1,12 @@
-import logo from './logo.svg';
+import { Profiler } from 'react';
 import './App.css';
-import Gallery from './Feed';
-import paint from './paint';
-import More from './more';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-function Page() {
+// import Main  from './main';
+import Proflie from './profile'
+function App() {
   return (
     <div>
-      
-      <More/>
-    </div> 
+      <Proflie/>
+    </div>
   );
 }
-
-export default Page;
+export default App;
